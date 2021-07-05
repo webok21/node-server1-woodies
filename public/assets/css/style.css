@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.index-body {
+    background-image: linear-gradient(to top, rgba(243,197,82,1),rgba(243,197,82,0.5));
+    margin: 6% 8%;
+    min-height: 100vh;
+}
+.index-border {
+    background: top right / 50% no-repeat #fff url("../img/Group 23.png");
+    border-radius: 20px;
+    min-height: 80vh;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-name {
+    font-size: 1.7em;
+    font-weight: 700;
+     letter-spacing: 6px;
+    margin-left: 10px;
+}
+nav {
+    font-size: 1.1em;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none; 
+}
+li {
+    padding: 0 30px;
+}
+li:last-of-type {
+    border: 1px solid rgba(62, 63, 67, 1);
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+nav a  {
+    color: rgba(34, 34, 34, 0.75);
+    text-decoration: none;
+}
+nav a:last-of-type {
+    color: rgba(62, 63, 67, 1);
+    font-weight: 700;
+}
+.active {
+    color: rgba(218, 165, 32, 1);
+}
+#logo-wrapper {
+    display: flex;
+    justify-content: space-between
+}
+#index-main {
+    width: 40%;
+    margin: 8%;
+}
+main h2 { 
+    font-weight: 400;
+    font-size: 2.6em;
+}
+span {
+    font-weight: 700;
+}
+main h1 {
+    font-size: 5.1em;
+}
+button {
+    font-size: 1.1em;
+    color: #fff;
+    background: rgba(218, 165, 32, 1);
+    border: none;
+    border-radius: 5px;
+    padding: 3% 6%;
+}
+#about-main h1 {
+    color: rgba(34, 34, 34, 0.1);
+}
+.logo {
+    width: 30px;
+    height: 30px;
+} 
+.about-div {
+    display: flex;
+    align-items: center;
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 0 3%;
+}
+.pic-text {
+    display: flex;
+    justify-content: space-between;
+}
+article {
+    margin: 7% 6% 0 28%;
+}
+p {
+    font-size: 1.7em;
+}
+footer h3, footer p {
+    font-size: 1.3em;
+}
+footer h3 {
+    font-weight: 700;
+}
+#about-footer {
+    background: bottom right / 50% no-repeat url("../img/table-chair.png");
+}
+/* .body-bg{
+    background: #E5E5E5;
+
+} */
